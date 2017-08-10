@@ -103,6 +103,7 @@ InfoWindow.propTypes = {
   marker: PropTypes.object,
   position: PropTypes.object,
   visible: PropTypes.bool,
+  maxWidth: PropTypes.number,
 
   // callbacks
   onClose: PropTypes.func,
